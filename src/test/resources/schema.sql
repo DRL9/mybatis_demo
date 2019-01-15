@@ -1,0 +1,11 @@
+CREATE TABLE t_user (
+  id   BIGINT      NOT NULL AUTO_INCREMENT,
+  name VARCHAR(20) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE t_book (
+  id        BIGINT      NOT NULL AUTO_INCREMENT,
+  bookName VARCHAR(20) NOT NULL,
+  PRIMARY KEY (id)
+);

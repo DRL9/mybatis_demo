@@ -1,0 +1,15 @@
+server:
+  port: 8086
+spring:
+  datasource:
+    mybatis1:
+      jdbc-url: jdbc:mysql://localhost:3306/mybatis_1
+      username: drl
+      password: 123456
+    mybatis2:
+      jdbc-url: jdbc:mysql://localhost:3306/mybatis_2
+      username: drl
+      password: 123456
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
